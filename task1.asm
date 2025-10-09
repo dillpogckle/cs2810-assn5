@@ -23,8 +23,8 @@ sw $t3, result
 #print result and newline
 li $v0, 1
 move $a0, $t3
+syscall 
+
+#exit
+li $v0, 10
 syscall
-li $v0, 11
-li $a0, 10
-syscall
- 
