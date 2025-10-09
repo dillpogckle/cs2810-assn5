@@ -2,7 +2,7 @@
 a: .word 4
 b: .word 7
 c: .word 10
-result: .word 0
+result: .space 4
 
 .text
 .globl main
